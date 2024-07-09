@@ -27,5 +27,24 @@ button:hover {
   background-color: #0056b3;
 }
 
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+li {
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  max-width: 500px;
+  gap: 30px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 10px;
+}
+
 
 

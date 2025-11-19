@@ -34,11 +34,11 @@ La idea podría ser la siguiente
 - Una función para guardar la lista de chistes en localStorage
 - Una función para cargar la lista de chistes desde localStorage
 
-revisar si fuera necesario `JSON.stringify` y `JSON.parse` para los datos del localStorage
+Revisar `JSON.stringify` y `JSON.parse` para los datos del localStorage. Recuerda que El localStorage solo guarda texto, por tanto habrá que hacer lo posible para que los elementos que vengan se guarden en un formato quer luego se pueda recorrer. Busca información sobre `JSON.stringify` y `JSON.parse`y como poder guardarlo para después recorrerlo.  
 
 ## BONUS
 Como BONUS crear un botón para eliminar todos los elementos a la vez y/o un botón para eliminar uno a uno el elemento seleccionado 
-- Manejador de click en los botones de eliminación (se eliminará desde el local storage como del DOM)
+- Manejador de click en los botones de eliminación (se eliminará desde el local storage como del DOM).
 
 ## API Utilizada
 
